@@ -1,0 +1,26 @@
+/*Program will check the largest number in an array of 5 numbers*/
+main()
+{
+	int i,arr[5],largest,smallest;
+	printf("Enter the number you would like to add in array:\n");
+	for(i=0;i<5;i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	for(i=0;i<5;i++)
+	{
+		if(largest<arr[i])
+		{
+			largest=arr[i];
+		}
+	}
+	smallest=arr[0];
+	for (i=0;i<5;i++)
+	{
+		if(smallest>arr[i])
+		{
+			smallest=arr[i];
+		}
+	}
+	printf("The largest number is %d and smallest is %d",largest,smallest);
+}
