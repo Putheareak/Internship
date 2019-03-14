@@ -1,4 +1,6 @@
 /*program will find whether the given number is a Armstrong Number or Not*/
+#include<stdio.h>
+#include<math.h>
 void main()
 {
 	int num,orgnum,pro,re;
